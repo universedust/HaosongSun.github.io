@@ -38,12 +38,7 @@ Publications
 
 Research Experience
 ======
-**Peking University, School of Engineering**  
-*Research Intern* | Jan 2024 - Jun 2024  
-- Optimized target detection through deep learning approaches
-- Improved performance metrics using enhanced YOLO architectures
-- Implemented computer vision models and processing pipelines with PyTorch
-- Conducted literature review and experimental validation of detection methods
+*Research Intern* 
 
 Projects
 ======
