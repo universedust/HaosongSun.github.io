@@ -7,15 +7,19 @@
 # server process.
 
 # Basic Site Settings
+locale                   : "zh-CN"
 locale                   : "en-US"
 site_theme               : "default"
-title                    : "Your Name / Site Title"
+title                    : "孙浩淞 / Haosong Sun"
+title                    : "Haosong Sun"
 title_separator          : "-"
-name                     : &name "Your Name"
-description              : &description "personal description"
-url                      : https://academicpages.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io" or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
-baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "academicpages/academicpages.github.io"
+name                     : &name "孙浩淞"
+description              : &description "机器人学硕士生，研究方向为具身智能、视觉语言模型与视觉推理"
+name                     : &name "Haosong Sun"
+description              : &description "Robotics master's student researching embodied intelligence, vision-language models, and visual reasoning"
+url                      : https://haosongsun.github.io
+baseurl                  : ""
+repository               : "HaosongSun/HaosongSun.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
@@ -23,13 +27,15 @@ repository               : "academicpages/academicpages.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Your Sidebar Name"
+  name             : "孙浩淞"
+  name             : "Haosong Sun"
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
-  location         : "Beijing"
-  employer         : "BUPT"
-  uri              : # URL
-  email            : "" 
+  bio              : "机器人学硕士生 · 具身智能 / VLM / 视觉推理"
+  bio              : "Robotics master's student · Embodied AI / VLM / Visual Reasoning"
+  location         : "Hong Kong"
+  employer         : "CUHK Robotics"
+  uri              : "https://haosongsun.github.io"
+  email            : "mrsun666@126.com" 
 
   # Academic websites
 #  academia         : # URL
@@ -52,7 +58,7 @@ author:
 
   # Social media
   artstation       : # Username
-  bluesky          : "bsky.app" # Replace this with you Bluesky username
+  bluesky          : # Username
   facebook         : # Username
   flickr           : # Username
   foursquare       : # Username
