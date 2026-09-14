@@ -7,58 +7,41 @@ redirect_from:
   - /resume
 ---
 
-{% include base_path %}
+[Download Resume PDF (Chinese)](/files/CV_HaosongSun.pdf){: .btn .btn--primary}
 
-Education
-======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+## Personal Information
 
-Work experience
-======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+**Haosong Sun**  
+Email: <mrsun666@126.com> · 
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+## Education
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+**The Chinese University of Hong Kong, Faculty of Engineering**  
+M.Sc. in Robotics · 2026 - 2028
 
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+**Beijing University of Posts and Telecommunications, School of Information and Communication Engineering**  
+B.Eng. in Electronic Information Engineering · 2022 - 2026 · Ranked in the top 15% of the class
+
+Programming: Python · English: IELTS 7.0
+
+## Industry Experience
+
+**Beijing Humanoid Robot Innovation Center** · Large Model Algorithm Engineer  
+2026.04 - 2026.07
+
+## Research Experience
+
+**Enhancing Visual Reasoning with Dual-Path Verification GRPO** · 2025.11 - 2026.01
+
+
+**Exposure Assessment for Images in Complex Scenes (Under Review)** · 2025.08 - 2026.01
+
+## Publication
+
+**Pelican-Unify 1.0: A Unified Embodied Intelligence Model for Understanding, Reasoning, Imagination and Action.**  
+Technical Report · [arXiv:2605.15153](https://arxiv.org/abs/2605.15153)
+
+## Honors
+
+- Third-Class Scholarship, BUPT, 2024/2025 academic year (2025.12)
+- Third-Class Scholarship, BUPT, 2023/2024 academic year (2024.12)
