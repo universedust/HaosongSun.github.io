@@ -1,98 +1,91 @@
-{
-  "basics": {
-    "name": "Haosong Sun",
-    "label": "Robotics Master's Student",
-    "email": "mrsun666@126.com"
-    "website": "https://haosongsun.github.io",
-    "summary": "Robotics master's student researching embodied intelligence, vision-language models, and visual reasoning.",
-    "location": {
-      "address": "",
-      "postalCode": "",
-      "city": "Hong Kong",
-      "countryCode": "HK",
-      "region": ""
-    },
-    "profiles": []
-  },
-  "work": [
-    {
-      "company": "Beijing Humanoid Robot Innovation Center",
-      "position": "Large Model Algorithm Engineer",
-      "startDate": "2026.04",
-      "endDate": "2026.07",
-      "summary": "Long-horizon task-planning VLM training and benchmark construction; WAM architecture validation, training, and evaluation.",
-    }
-  ],
-  "education": [
-    {
-      "institution": "The Chinese University of Hong Kong, Faculty of Engineering",
-      "area": "Robotics",
-      "studyType": "M.Sc.",
-      "startDate": "2026",
-      "endDate": "2028",
-      "gpa": null,
-      "courses": []
-    },
-    {
-      "institution": "Beijing University of Posts and Telecommunications, School of Information and Communication Engineering",
-      "area": "Electronic Information Engineering",
-      "studyType": "B.Eng.",
-      "startDate": "2022",
-      "endDate": "2026",
-      "gpa": null,
-      "rank": "Ranked in the top 15% of the class",
-      "courses": []
-    }
-  ],
-  "skills": [
-    {
-      "name": "Programming Languages",
-      "keywords": ["Python"]
-    },
-    {
-      "name": "Research Areas",
-      "keywords": ["Embodied Intelligence", "Vision-Language Models", "Visual Reasoning", "GRPO", "Computer Vision"]
-    }
-  ],
-  "languages": [
-    {
-      "language": "English",
-      "fluency": "IELTS 7.0"
-    }
-  ],
-  "interests": [
-    {
-      "name": "Embodied Intelligence",
-      "keywords": ["VLMs/VLAs", "Long-Horizon Task Planning", "Real-Robot Deployment"]
-    },
-    {
-      "name": "Visual Reasoning",
-      "keywords": ["GRPO", "Self-Consistency Verification", "Visual-Evidence Verification"]
-    }
-  ],
-  "references": [],
-  "publications": [
-    {
-      "name": "Pelican-Unify 1.0: A Unified Embodied Intelligence Model for Understanding, Reasoning, Imagination and Action.",
-      "publisher": "Technical Report",
-      "releaseDate": "2026-05-01",
-      "website": "https://arxiv.org/abs/2605.15153",
-      "summary": "Haosong Sun et al."
-    }
-  ],
-  "presentations": [],
-  "teaching": [],
-  "portfolio": [],
-  "awards": [
-    {
-      "title": "Third-Class Scholarship, Beijing University of Posts and Telecommunications",
-      "date": "2025.12",
-      "summary": "2024/2025 academic year"
-    },
-    {
-      "title": "Third-Class Scholarship, Beijing University of Posts and Telecommunications",
-      "date": "2024.12",
-      "summary": "2023/2024 academic year"
-    }
-  ]
-}
+basics:
+  name: "Haosong Sun"
+  label: "Robotics Master's Student"
+  email: "mrsun666@126.com"
+  phone: "13341123095"
+  website: "https://universedust.github.io/HaosongSun.github.io/"
+  summary: "Robotics master's student researching embodied intelligence, vision-language models, and visual reasoning."
+  location:
+    address: ""
+    postalCode: ""
+    city: "Hong Kong"
+    countryCode: "HK"
+    region: ""
+  profiles: []
+
+work:
+  - company: "Beijing Humanoid Robot Innovation Center"
+    position: "Large Model Algorithm Engineer"
+    startDate: "2026.04"
+    endDate: "2026.07"
+    summary: "Long-horizon task-planning VLM training and benchmark construction; WAM architecture validation, training, and evaluation."
+    highlights:
+      - "Built a long-horizon planning benchmark covering 150+ tasks and approximately 2,000 video-question pairs."
+      - "Performed VLM Planner SFT on Qwen3.5-9B, improving performance on Paibench-U and a self-built benchmark."
+      - "Contributed to the validation, training, evaluation, and real-robot deployment of WAM v1 (Qwen3-VL & Decoupled Timestep) and v2 (Qwen3.5 & Chunk-AR)."
+
+education:
+  - institution: "The Chinese University of Hong Kong, Faculty of Engineering"
+    area: "Robotics"
+    studyType: "M.Sc."
+    startDate: "2026"
+    endDate: "2028"
+    gpa:
+    courses: []
+  - institution: "Beijing University of Posts and Telecommunications, School of Information and Communication Engineering"
+    area: "Electronic Information Engineering"
+    studyType: "B.Eng."
+    startDate: "2022"
+    endDate: "2026"
+    gpa:
+    rank: "Ranked in the top 15% of the class"
+    courses: []
+
+skills:
+  - name: "Programming Languages"
+    keywords:
+      - "Python"
+  - name: "Research Areas"
+    keywords:
+      - "Embodied Intelligence"
+      - "Vision-Language Models"
+      - "Visual Reasoning"
+      - "GRPO"
+      - "Computer Vision"
+
+languages:
+  - language: "English"
+    fluency: "IELTS 7.0"
+
+interests:
+  - name: "Embodied Intelligence"
+    keywords:
+      - "VLMs/VLAs"
+      - "Long-Horizon Task Planning"
+      - "Real-Robot Deployment"
+  - name: "Visual Reasoning"
+    keywords:
+      - "GRPO"
+      - "Self-Consistency Verification"
+      - "Visual-Evidence Verification"
+
+references: []
+
+publications:
+  - name: "Pelican-Unify 1.0: A Unified Embodied Intelligence Model for Understanding, Reasoning, Imagination and Action."
+    publisher: "Technical Report"
+    releaseDate: "2026-05-01"
+    website: "https://arxiv.org/abs/2605.15153"
+    summary: "Haosong Sun et al."
+
+presentations: []
+teaching: []
+portfolio: []
+
+awards:
+  - title: "Third-Class Scholarship, Beijing University of Posts and Telecommunications"
+    date: "2025.12"
+    summary: "2024/2025 academic year"
+  - title: "Third-Class Scholarship, Beijing University of Posts and Telecommunications"
+    date: "2024.12"
+    summary: "2023/2024 academic year"
