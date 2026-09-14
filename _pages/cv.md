@@ -7,7 +7,7 @@ redirect_from:
   - /resume
 ---
 
-[Download Resume PDF (Chinese)](/files/CV_HaosongSun.pdf){: .btn .btn--primary}
+[Download Resume PDF (Chinese)]({{ site.baseurl }}/files/CV_HaosongSun.pdf){: .btn .btn--primary}
 
 ## Personal Information
 
