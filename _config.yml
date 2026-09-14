@@ -7,19 +7,15 @@
 # server process.
 
 # Basic Site Settings
-locale                   : "zh-CN"
 locale                   : "en-US"
 site_theme               : "default"
-title                    : "孙浩淞 / Haosong Sun"
 title                    : "Haosong Sun"
 title_separator          : "-"
-name                     : &name "孙浩淞"
-description              : &description "机器人学硕士生，研究方向为具身智能、视觉语言模型与视觉推理"
 name                     : &name "Haosong Sun"
 description              : &description "Robotics master's student researching embodied intelligence, vision-language models, and visual reasoning"
-url                      : https://haosongsun.github.io
-baseurl                  : ""
-repository               : "HaosongSun/HaosongSun.github.io"
+url                      : https://universedust.github.io
+baseurl                  : "/HaosongSun.github.io"
+repository               : "universedust/HaosongSun.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
@@ -27,14 +23,12 @@ repository               : "HaosongSun/HaosongSun.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "孙浩淞"
   name             : "Haosong Sun"
   pronouns         : # example: "she/her"  
-  bio              : "机器人学硕士生 · 具身智能 / VLM / 视觉推理"
   bio              : "Robotics master's student · Embodied AI / VLM / Visual Reasoning"
   location         : "Hong Kong"
   employer         : "CUHK Robotics"
-  uri              : "https://haosongsun.github.io"
+  uri              : "https://universedust.github.io/HaosongSun.github.io/"
   email            : "mrsun666@126.com" 
 
   # Academic websites
