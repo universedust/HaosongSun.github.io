@@ -61,13 +61,16 @@
       {% for education in cv.education %}
       <li class="cv-item">
         <div class="cv-item-header">
-          <div class="cv-item-title">{{ education.area }}</div>
-          <div class="cv-item-date">{{ education.endDate }}</div>
+          <div class="cv-item-title">{% if education.studyType %}{{ education.studyType }} · {% endif %}{{ education.area }}</div>
+          <div class="cv-item-date">{{ education.startDate }}{% if education.endDate %} - {{ education.endDate }}{% endif %}</div>
         </div>
         <div class="cv-item-content">
           <div class="cv-item-subtitle">{{ education.institution }}</div>
           {% if education.gpa %}
           <div class="cv-item-detail">GPA: {{ education.gpa }}</div>
+          {% endif %}
+          {% if education.rank %}
+          <div class="cv-item-detail">{{ education.rank }}</div>
           {% endif %}
           {% if education.courses.size > 0 %}
           <div class="cv-item-detail">
@@ -274,6 +277,28 @@
   </div>
   {% endif %}
   
+  {% if cv.awards.size > 0 %}
+  <!-- Awards -->
+  <div class="cv-section">
+    <h2>Honors</h2>
+    <ul class="cv-list">
+      {% for award in cv.awards %}
+      <li class="cv-item">
+        <div class="cv-item-header">
+          <div class="cv-item-title">{{ award.title }}</div>
+          <div class="cv-item-date">{{ award.date }}</div>
+        </div>
+        {% if award.summary %}
+        <div class="cv-item-content">
+          <div class="cv-item-detail">{{ award.summary }}</div>
+        </div>
+        {% endif %}
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+  {% endif %}
+
   {% if cv.references.size > 0 %}
   <!-- References -->
   <div class="cv-section">
