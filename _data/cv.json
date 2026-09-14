@@ -1,152 +1,98 @@
 {
   "basics": {
-    "name": "Your Sidebar Name",
-    "email": "none@example.org",
-    "phone": "",
-    "website": "https://academicpages.github.io",
-    "summary": "Currently employed at Red Brick University. Short biography for the left-hand sidebar",
+    "name": "Haosong Sun",
+    "label": "Robotics Master's Student",
+    "email": "mrsun666@126.com"
+    "website": "https://haosongsun.github.io",
+    "summary": "Robotics master's student researching embodied intelligence, vision-language models, and visual reasoning.",
     "location": {
       "address": "",
       "postalCode": "",
-      "city": "Earth",
-      "countryCode": "US",
+      "city": "Hong Kong",
+      "countryCode": "HK",
       "region": ""
     },
-    "profiles": [
-      {
-        "network": "Google Scholar",
-        "username": "",
-        "url": "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
-      },
-      {
-        "network": "ORCID",
-        "username": "",
-        "url": "http://orcid.org/yourorcidurl"
-      },
-      {
-        "network": "GitHub",
-        "username": "academicpages",
-        "url": "https://github.com/academicpages"
-      }
-    ]
+    "profiles": []
   },
-  "work": [],
+  "work": [
+    {
+      "company": "Beijing Humanoid Robot Innovation Center",
+      "position": "Large Model Algorithm Engineer",
+      "startDate": "2026.04",
+      "endDate": "2026.07",
+      "summary": "Long-horizon task-planning VLM training and benchmark construction; WAM architecture validation, training, and evaluation.",
+    }
+  ],
   "education": [
     {
-      "institution": "GitHub University",
-      "area": "Ph.D in Version Control Theory",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2018",
+      "institution": "The Chinese University of Hong Kong, Faculty of Engineering",
+      "area": "Robotics",
+      "studyType": "M.Sc.",
+      "startDate": "2026",
+      "endDate": "2028",
       "gpa": null,
       "courses": []
     },
     {
-      "institution": "GitHub University",
-      "area": "M.S. in Jekyll",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2014",
+      "institution": "Beijing University of Posts and Telecommunications, School of Information and Communication Engineering",
+      "area": "Electronic Information Engineering",
+      "studyType": "B.Eng.",
+      "startDate": "2022",
+      "endDate": "2026",
       "gpa": null,
-      "courses": []
-    },
-    {
-      "institution": "GitHub University",
-      "area": "B.S. in GitHub",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2012",
-      "gpa": null,
+      "rank": "Ranked in the top 15% of the class",
       "courses": []
     }
   ],
-  "skills": [],
-  "languages": [],
-  "interests": [],
+  "skills": [
+    {
+      "name": "Programming Languages",
+      "keywords": ["Python"]
+    },
+    {
+      "name": "Research Areas",
+      "keywords": ["Embodied Intelligence", "Vision-Language Models", "Visual Reasoning", "GRPO", "Computer Vision"]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "IELTS 7.0"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Embodied Intelligence",
+      "keywords": ["VLMs/VLAs", "Long-Horizon Task Planning", "Real-Robot Deployment"]
+    },
+    {
+      "name": "Visual Reasoning",
+      "keywords": ["GRPO", "Self-Consistency Verification", "Visual-Evidence Verification"]
+    }
+  ],
   "references": [],
   "publications": [
     {
-      "name": "Paper Title Number 1",
-      "publisher": "Journal 1",
-      "releaseDate": "2009-10-01",
-      "website": "http://academicpages.github.io/files/paper1.pdf",
-      "summary": "This paper is about the number 1. The number 2 is left for future work."
-    },
-    {
-      "name": "Paper Title Number 2",
-      "publisher": "Journal 1",
-      "releaseDate": "2010-10-01",
-      "website": "http://academicpages.github.io/files/paper2.pdf",
-      "summary": "This paper is about the number 2. The number 3 is left for future work."
-    },
-    {
-      "name": "Paper Title Number 3",
-      "publisher": "Journal 1",
-      "releaseDate": "2015-10-01",
-      "website": "http://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about the number 3. The number 4 is left for future work."
-    },
-    {
-      "name": "Paper Title Number 4",
-      "publisher": "GitHub Journal of Bugs",
-      "releaseDate": "2024-02-17",
-      "website": "http://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about fixing template issue #693."
+      "name": "Pelican-Unify 1.0: A Unified Embodied Intelligence Model for Understanding, Reasoning, Imagination and Action.",
+      "publisher": "Technical Report",
+      "releaseDate": "2026-05-01",
+      "website": "https://arxiv.org/abs/2605.15153",
+      "summary": "Haosong Sun et al."
     }
   ],
-  "presentations": [
+  "presentations": [],
+  "teaching": [],
+  "portfolio": [],
+  "awards": [
     {
-      "name": "Talk 1 on Relevant Topic in Your Field",
-      "event": "UC San Francisco, Department of Testing",
-      "date": "2012-03-01",
-      "location": "San Francisco, CA, USA",
-      "description": ""
+      "title": "Third-Class Scholarship, Beijing University of Posts and Telecommunications",
+      "date": "2025.12",
+      "summary": "2024/2025 academic year"
     },
     {
-      "name": "Tutorial 1 on Relevant Topic in Your Field",
-      "event": "UC-Berkeley Institute for Testing Science",
-      "date": "2013-03-01",
-      "location": "Berkeley, CA, USA",
-      "description": ""
-    },
-    {
-      "name": "Talk 2 on Relevant Topic in Your Field",
-      "event": "London School of Testing",
-      "date": "2014-02-01",
-      "location": "London, UK",
-      "description": ""
-    },
-    {
-      "name": "Conference Proceeding talk 3 on Relevant Topic in Your Field",
-      "event": "Testing Institute of America 2014 Annual Conference",
-      "date": "2014-03-01",
-      "location": "Los Angeles, CA, USA",
-      "description": ""
-    }
-  ],
-  "teaching": [
-    {
-      "course": "Teaching experience 1",
-      "institution": "University 1, Department",
-      "date": "2014-01-01",
-      "role": "Undergraduate course",
-      "description": ""
-    },
-    {
-      "course": "Teaching experience 2",
-      "institution": "University 1, Department",
-      "date": "2015-01-01",
-      "role": "Workshop",
-      "description": ""
-    }
-  ],
-  "portfolio": [
-    {
-      "name": "Portfolio item number 1",
-      "category": "portfolio",
-      "date": "",
-      "url": "",
-      "description": "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
+      "title": "Third-Class Scholarship, Beijing University of Posts and Telecommunications",
+      "date": "2024.12",
+      "summary": "2023/2024 academic year"
     }
   ]
 }
