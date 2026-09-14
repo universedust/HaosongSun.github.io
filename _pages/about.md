@@ -12,8 +12,8 @@ Hello, I am **Haosong Sun**, a master's student in Robotics at the Faculty of En
 
 My research focuses on **embodied intelligence, vision-language models (VLMs/VLAs), and visual reasoning**. I am interested in building agents that can understand complex environments, plan long-horizon tasks, and act reliably in the real world.
 
-[Download Resume PDF (Chinese)](/files/CV_HaosongSun.pdf){: .btn .btn--primary}
-[View Online CV](/cv/){: .btn .btn--inverse}
+[Download Resume PDF (Chinese)]({{ site.baseurl }}/files/CV_HaosongSun.pdf){: .btn .btn--primary}
+[View Online CV]({{ site.baseurl }}/cv/){: .btn .btn--inverse}
 
 ## Research Interests
 
